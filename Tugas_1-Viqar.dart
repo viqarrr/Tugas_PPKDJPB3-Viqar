@@ -1,4 +1,4 @@
-// Fungsi untuk menampilkan biodata
+/// Fungsi untuk menampilkan biodata
 void tampilkanBiodata(String nama, int umur, double tinggiBadan, bool status, List<String> bukuFavorit, Map<String, dynamic> informasiTambahan){
   String statusKeaktifan = status ? 'Aktif' : 'Tidak Aktif'; // Mengubah boolean status ke String
 
